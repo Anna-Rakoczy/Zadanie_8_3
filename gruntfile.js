@@ -20,9 +20,6 @@ module.exports = function(grunt) {
 
   // Default task(s).
   grunt.registerTask('default', ['sass']);
-};
-
-module.exports = function(grunt) {
 
   grunt.initConfig({
     jshint: {
@@ -33,5 +30,4 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-jshint');
 
   grunt.registerTask('default', ['jshint']);
-
 };
